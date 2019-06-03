@@ -1,6 +1,8 @@
-# eat
+# 今天吃了嘛
 
 > A Mpvue project
+
+![](https://i.loli.net/2019/06/03/5cf5208bbf40c23123.gif)
 
 ## Build Setup
 
