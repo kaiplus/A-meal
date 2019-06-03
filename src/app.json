@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/center/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "一日三餐",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/nsEat.png",
+      "selectedIconPath": "static/tabs/Eat.png"
+    }, {
+      "text": "个人中心",
+      "pagePath": "pages/center/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }],
+
+    
+    "position": "bottom"
+  },
+  "usingComponents": {
+    
+  }
+}
